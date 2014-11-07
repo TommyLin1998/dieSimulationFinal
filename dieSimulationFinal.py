@@ -2,7 +2,7 @@
 
 import random
 
-sides = int_input('How many sides on your die? ')
+sides = int(raw_input('How many sides on your die? '))
 
 number = random.randint(1, sides)
 
