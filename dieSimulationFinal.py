@@ -1,5 +1,17 @@
 #! /usr/bin/env python
 
+'''
+This program simulates rolling several dice.
+The user can choose how many dice are rolled.
+
+How many dice would you like to roll? 3
+How many sides on the dice? 4
+
+Die 1 shows: 2
+Die 2 shows: 4
+Die 3 shows: 4
+
+'''
 import random
 
 dice = int(raw_input('How many dice would you like to roll? '))
